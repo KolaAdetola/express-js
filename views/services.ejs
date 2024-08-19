@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link href="https://unpkg.com/flowbite@1.5.4/dist/flowbite.min.css" rel="stylesheet" />
+</head>
+<body>
+
+    <!-- Navbar -->
+    <nav class="bg-gray-900 text-white shadow-md py-4">
+        <div class="container mx-auto flex justify-between items-center">
+            <a href="#" class="text-2xl font-bold text-blue-600">Morphine</a>
+            <div class="space-x-4">
+                <a href="/" class="text-white font-normal hover:text-blue-600 transition" aria-current="page">Home</a>
+                <a href="services" class="text-white font-normal text-blue-600 transition">About</a>
+                <a href="contact" class="text-white font-normal hover:text-blue-600 transition">Contact Us</a>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <section class="bg-white dark:bg-gray-900">
+            <div class="container mx-auto px-6 py-12">
+                <h1 class="text-4xl font-bold text-gray-800 dark:text-white mb-4">
+                    Welcome to Our Platform
+                </h1>
+                <p class="text-lg text-gray-600 dark:text-gray-400 mb-6">
+                    We are dedicated to providing the best solutions for your business needs. Explore our wide range of services designed to help you succeed in today's competitive market.
+                </p>
+                <a href="#services" class="text-white bg-blue-600 hover:bg-blue-700 focus:ring-4 focus:ring-blue-300 font-medium rounded-lg text-sm px-5 py-2.5 mr-2 mb-2 focus:outline-none dark:bg-blue-500 dark:hover:bg-blue-600 dark:focus:ring-blue-800">
+                    Learn More
+                </a>
+            </div>
+        </section>
+        
+        <section id="services" class="bg-gray-50 dark:bg-gray-800">
+            <div class="container mx-auto px-6 py-12">
+                <h2 class="text-3xl font-bold text-gray-800 dark:text-white mb-4">
+                    Our Services
+                </h2>
+                <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                    <div class="p-6 bg-white rounded-lg shadow-lg dark:bg-gray-900">
+                        <h3 class="text-2xl font-bold text-gray-800 dark:text-white mb-2">
+                            Consulting
+                        </h3>
+                        <p class="text-gray-600 dark:text-gray-400 mb-4">
+                            Expert advice to take your business to the next level.
+                        </p>
+                        <a href="#" class="text-blue-600 dark:text-blue-400 hover:underline">
+                            Read More
+                        </a>
+                    </div>
+                    <div class="p-6 bg-white rounded-lg shadow-lg dark:bg-gray-900">
+                        <h3 class="text-2xl font-bold text-gray-800 dark:text-white mb-2">
+                            Development
+                        </h3>
+                        <p class="text-gray-600 dark:text-gray-400 mb-4">
+                            Custom software solutions tailored to your needs.
+                        </p>
+                        <a href="#" class="text-blue-600 dark:text-blue-400 hover:underline">
+                            Read More
+                        </a>
+                    </div>
+                    <div class="p-6 bg-white rounded-lg shadow-lg dark:bg-gray-900">
+                        <h3 class="text-2xl font-bold text-gray-800 dark:text-white mb-2">
+                            Support
+                        </h3>
+                        <p class="text-gray-600 dark:text-gray-400 mb-4">
+                            24/7 support to keep your business running smoothly.
+                        </p>
+                        <a href="#" class="text-blue-600 dark:text-blue-400 hover:underline">
+                            Read More
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+    </main>
+
+
+    <footer>
+        <footer class="bg-gray-800 dark:bg-gray-900">
+            <div class="container mx-auto px-6 py-8">
+                <div class="flex justify-between items-center">
+                    <div class="text-white">
+                        <h4 class="font-bold text-lg">Company Name</h4>
+                        <p class="text-sm">© 2024 All rights reserved.</p>
+                    </div>
+                    <div class="flex space-x-4">
+                        <a href="#" class="text-gray-400 hover:text-white">
+                            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                                <path d="M24 4.5a9.93 9.93 0 0 1-2.857.784A4.926 4.926 0 0 0 23.337 3a9.905 9.905 0 0 1-3.127 1.194A4.918 4.918 0 0 0 16.616 3a4.92 4.92 0 0 0-4.92 4.92c0 .387.043.763.127 1.124A13.96 13.96 0 0 1 1.675 3.149a4.905 4.905 0 0 0-.666 2.475 4.92 4.92 0 0 0 2.188 4.1 4.907 4.907 0 0 1-2.23-.616v.062a4.922 4.922 0 0 0 3.946 4.83 4.913 4.913 0 0 1-2.224.084 4.924 4.924 0 0 0 4.594 3.415A9.873 9.873 0 0 1 0 21.52a13.945 13.945 0 0 0 7.548 2.211c9.057 0 14.01-7.502 14.01-14.01 0-.213-.004-.426-.014-.637A9.985 9.985 0 0 0 24 4.5z" />
+                            </svg>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-white">
+                            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                                <path d="M23.5 4.5a9.75 9.75 0 0 1-2.817.775A4.924 4.924 0 0 0 22.87 3.3a9.85 9.85 0 0 1-3.127 1.193 4.92 4.92 0 0 0-8.384 4.482A13.944 13.944 0 0 1 1.673 3.149a4.92 4.92 0 0 0-.665 2.475 4.918 4.918 0 0 0 2.188 4.1 4.92 4.92 0 0 1-2.23-.616v.062a4.923 4.923 0 0 0 3.946 4.83 4.917 4.917 0 0 1-2.223.084 4.92 4.92 0 0 0 4.594 3.415A9.876 9.876 0 0 1 0 21.52a13.932 13.932 0 0 0 7.548 2.211c9.057 0 14.01-7.502 14.01-14.01 0-.213-.004-.426-.014-.637A9.975 9.975 0 0 0 23.5 4.5z" />
+                            </svg>
+                        </a>
+                        <a href="#" class="text-gray-400 hover:text-white">
+                            <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
+                                <path d="M9 8.25C9 9.492 9 12 12 12c2.997 0 3-2.508 3-3.75C15 5.205 13.68 3.75 12 3.75c-1.675 0-3 .678-3 4.5zm12-2.625V18.75a3.75 3.75 0 0 1-3.75 3.75H6.75A3.75 3.75 0 0 1 3 18.75V5.625A3.75 3.75 0 0 1 6.75 1.875h10.5A3.75 3.75 0 0 1 21 5.625zm-6 10.875h3v1.875h-3V18.75zm-1.5 0H9V18h4.5v.75zM12 16.5a4.5 4.5 0 0 1-4.5-4.5H9a3 3 0 1 0 6 0h1.5a4.5 4.5 0 0 1-4.5 4.5z" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        
+    </footer>
+    <!-- Hero Section -->
+    <!-- <section class="bg-blue-600 text-white py-20">
+        <div class="container mx-auto text-center">
+            <h1 class="text-5xl font-bold mb-4">Welcome to Our Landing Page</h1>
+            <p class="text-xl mb-8">We offer amazing products that you will love.</p>
+            <a href="#features" class="bg-white text-blue-600 px-6 py-3 rounded-full font-semibold hover:bg-blue-700 hover:text-white transition">Explore Features</a>
+        </div>
+    </section> -->
+
+    <!-- About Section -->
+    <!-- <section id="about" class="py-20 bg-gray-100">
+        <div class="container mx-auto text-center">
+            <h2 class="text-4xl font-bold mb-12">About Us</h2>
+            <p class="text-lg">We are a company dedicated to providing the best solutions to our customers. Our team works tirelessly to innovate and deliver high-quality products.</p>
+        </div>
+    </section> -->
+
+    <!-- Feature Section -->
+    <!-- <section id="features" class="py-20">
+        <div class="container mx-auto text-center">
+            <h2 class="text-4xl font-bold mb-12">Our Features</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition">
+                    <img src="https://via.placeholder.com/150" alt="Feature 1" class="mx-auto mb-4">
+                    <h3 class="text-2xl font-semibold mb-2">Feature One</h3>
+                    <p>Our first feature is designed to help you achieve more with less effort.</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition">
+                    <img src="https://via.placeholder.com/150" alt="Feature 2" class="mx-auto mb-4">
+                    <h3 class="text-2xl font-semibold mb-2">Feature Two</h3>
+                    <p>This feature is built to increase your productivity exponentially.</p>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-md hover:shadow-lg transition">
+                    <img src="https://via.placeholder.com/150" alt="Feature 3" class="mx-auto mb-4">
+                    <h3 class="text-2xl font-semibold mb-2">Feature Three</h3>
+                    <p>With this feature, you can streamline your workflows and save time.</p>
+                </div>
+            </div>
+        </div>
+    </section> -->
+
+    <!-- Contact Section -->
+    <!-- <section id="contact" class="py-20 bg-gray-100">
+        <div class="container mx-auto text-center">
+            <h2 class="text-4xl font-bold mb-12">Contact Us</h2>
+            <p class="text-lg mb-6">Have questions or need more information? Get in touch with us.</p>
+            <a href="mailto:contact@mycompany.com" class="bg-blue-600 text-white px-6 py-3 rounded-full font-semibold hover:bg-blue-700 transition">Email Us</a>
+        </div>
+    </section> -->
+
+    <script src="https://unpkg.com/flowbite@1.5.4/dist/flowbite.js"></script>
+</body>
+</html>
